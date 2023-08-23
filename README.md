@@ -1,5 +1,10 @@
-# Processamento de Linguagme Natural (PLN)
+# Processamento de Linguagem Natural (PLN)
 Anotações sobre Processamento de Linguagem Natural.
+
+## Datasets
+
+- Brazilian Portuguese Sentiment Analysis Datasets
+   - Disponível no [huggingface.co](https://huggingface.co/datasets/lm4pt/bpsad) e [kaggle](https://www.kaggle.com/datasets/fredericods/ptbr-sentiment-analysis-datasets/code?resource=download)
 
 ## Livros
 Leitura recomendada:
