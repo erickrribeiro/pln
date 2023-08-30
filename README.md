@@ -3,6 +3,9 @@ Anotações sobre Processamento de Linguagem Natural.
 
 ## Datasets
 
+- Alpaca Dataset in Portuguese: é um dataset com ~52,000 instruções geradas pelo modelo `text-davinci`, da OpenAI. Essas instruções podem ser utilizadas durante o fine-tuning de modelo generativos.
+   - Disponível no [huggingface.com](https://huggingface.co/datasets/dominguesm/alpaca-data-pt-br)
+
 - Brazilian Portuguese Sentiment Analysis Datasets
    - Disponível no [huggingface.co](https://huggingface.co/datasets/lm4pt/bpsad) e [kaggle](https://www.kaggle.com/datasets/fredericods/ptbr-sentiment-analysis-datasets/code?resource=download)
 
