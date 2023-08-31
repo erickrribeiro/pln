@@ -1,0 +1,11 @@
+{
+    "python.envFile": "${workspaceFolder}/.venv",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.editorOptionsCustomizations": {
+        "editor.suggest.showInterfaces": true
+    },
+}
