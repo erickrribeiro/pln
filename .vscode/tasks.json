@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Install Dependencies",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "linux": {
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "command": "source .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt"
+            }
+        },
+        {
+            "label": "Sort Imports:ipynb",
+            "type": "shell",
+            "command": "source .venv/bin/activate && nbqa isort ${file}",
+            "problemMatcher": []
+        }
+    ]
+}

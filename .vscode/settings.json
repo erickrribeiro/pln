@@ -1,11 +1,41 @@
 {
+    "flake8.args": [
+        "--config", "config.ini"
+    ],        
+    "editor.multiCursorModifier": "alt",    
+    "python.analysis.autoImportCompletions": true,
+    "python.createEnvironment.contentButton": "show",
     "python.envFile": "${workspaceFolder}/.venv",
+    "files.autoSave": "afterDelay",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.formatting.provider": "black",    
     "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.organizeImports": true
+        },
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "ms-python.black-formatter",
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],        
+    },    
+    "jupyter.themeMatplotlibPlots": true,
+    "isort.args": [
+        "--settings-file",
+        "${workspaceFolder}/config.ini"
+    ],
+    "isort.severity": {
+        "W": "Warning",
+        "E": "Hint",
     },
+    "isort.importStrategy": "fromEnvironment",    
     "notebook.formatOnSave.enabled": true,
-    "notebook.editorOptionsCustomizations": {
-        "editor.suggest.showInterfaces": true
+    "notebook.editorOptionsCustomizations": {        
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.suggest.showInterfaces": true,
+        "editor.source.organizeImports": true,
     },
+    "python.analysis.typeCheckingMode": "off",    
 }
