@@ -1,0 +1,12 @@
+// Place your key bindings using this file. For more details, access the link https://code.visualstudio.com/docs/getstarted/keybindings#_advanced-customization
+[
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Install Dependencies"
+    }    
+]
