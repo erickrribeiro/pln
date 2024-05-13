@@ -19,6 +19,10 @@ Leitura recomendada:
   <img src="https://github.com/erickrribeiro/pln/assets/5834111/2bf7476d-f25c-4b29-b955-c874b77d9afc">
 </a>
 
+<a hred="https://www.oreilly.com/library/view/mastering-nlp-from/9781804619186/">
+  <img src="https://github.com/erickrribeiro/pln/assets/5834111/107d0399-cb1e-4e14-b1fa-b75cf167b414">
+</a>
+
 ## Cursos
 
 - [Processamento de Linguagem Natural (PLN) usando as bibliotecas do Hugging Face.](https://huggingface.co/learn/nlp-course/chapter1/1)
