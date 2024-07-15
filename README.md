@@ -25,4 +25,5 @@ Leitura recomendada:
 
 ## Cursos
 
-- [Processamento de Linguagem Natural (PLN) usando as bibliotecas do Hugging Face.](https://huggingface.co/learn/nlp-course/chapter1/1)
+- [Processamento de Linguagem Natural usando as bibliotecas do Hugging Face.](https://huggingface.co/learn/nlp-course/chapter1/1)
+- [Processamento de Linguagem Natural - University of Illinois System](https://courses.grainger.illinois.edu/cs447/su2024/)
